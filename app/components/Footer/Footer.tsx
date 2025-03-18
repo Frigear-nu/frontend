@@ -1,15 +1,15 @@
 // Footer.tsx
-import GitHub from "@/components/icons/GitHub";
-import Logo from "@/components/icons/Logo";
-import Logo_six from "@/components/icons/Logo_six";
+import GitHub from "@/app/components/icons/github";
+import Logo from "@/app/components/icons/logo";
+import Logo_six from "@/app/components/icons/logo-six";
 import FooterLinkGroup from "./FooterLinkGroup";
 import Link from "next/link";
 
 const footerLinks = [
   { href: "/info", label: "INFO" },
-  { href: "/#kontakt", label: "SUPPORT" },
-  { href: "/", label: "COOKIES" },
-  { href: "/", label: "SIKKERHED" },
+  { href: "/kontakt", label: "SUPPORT" },
+  { href: "/privatpolitik", label: "GDPR" },
+  { href: "/brand", label: "BRANDING" },
 ];
 
 export default function Footer() {
